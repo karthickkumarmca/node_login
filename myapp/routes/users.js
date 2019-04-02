@@ -88,7 +88,7 @@ router.post('/addData',function(req,res){
 						  	if(LastId>0){
 						  		var output = {status:200,message:'Successfully Added'}
 						  		var mailOptions = {
-								  from: 'karthikkumar144@gmail.com',
+								  from: 'xxxxxxxx@gmail.com',
 								  to: data.user_email,
 								  subject: 'Email  confimation',
 								  text: '<a href="http://localhost/learn/signup2/#!/confirmation?id='+LastId+'">click here to continue ur login</a>'
