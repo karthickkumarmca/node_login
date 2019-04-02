@@ -26,8 +26,8 @@ app.locals.connection = mysql.createConnection({
 app.locals.email = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'karthikkumar144@gmail.com',
-    pass: 'kumar!!*karthi'
+    user: 'XXXXXX@gmail.com',
+    pass: 'XXXXXXXXX'
   }
 });
 
