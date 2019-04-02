@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+input(id='StartDate', name='startDate', class='form-control', value='#{project.StartDate} ', enctype="application/x-www-form-urlencoded"
